@@ -17,7 +17,7 @@ File.open("../jpmc_2013.csv") do |record|
 end
 
 # additional income not on Chase. Expenses Spreadsheet Lines 3-6, 11-12, 25, 40
-game_time += 1135
+game_time += 1235
 
 
 puts "Gross Income in 2013"
@@ -39,6 +39,9 @@ File.open("../jpmc_2013.csv") do |record|
     end
   end
 end
+
+#Paid in cash line 10 on revenue spreadsheet
+wages_bin += -100
 
 puts "Total Wage Expense in 2013"
 puts wages_bin
