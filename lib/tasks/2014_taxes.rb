@@ -2,6 +2,9 @@
 # - Google Helpouts
 # - Starter League
 # - Hackhands
+# - GitHub
+# - 1871
+# - Clear WiFi
 
 
 
